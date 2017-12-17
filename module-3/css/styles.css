@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(http://all4desktop.com/data_images/1280%20x%20720/4208112-small-sea-wave-hdtv-1080p-HD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2000px;
+  width: 1900px;
+}
+
+.wrapper {
+  width: 480px;
+  margin: 240px auto;
+  padding: 60px 35px 45px 35px;
+  background-color: #ffffff;
+}
+
+.title {
+  margin: 0 0 30px;
+  font-size: 25px;
+  font-family: Pathway Gothic One;
+  color: #263555;
+}
+
+.small {
+  padding-right: 65px;
+}
+
+img {
+  margin: 0 0 30px;
+}
+
+.paragraph {
+  margin: 0 0 20px;
+  font-family: Pathway Gothic One;
+  font-size: 20px;
+  color: #263555;
+}
+
+.text {
+  margin: 20px 0 30px;
+  font-family: Pathway Gothic One;
+  font-size: 18px;
+  color: #4e5050;
+}
+
+.first-paragpaph {
+  margin: 50px 0 30px;
+  font-family: Pathway Gothic One;
+  font-size: 25px;
+  color: #263555;
+}
+
+.last-paragraph {
+  margin: 55px 0 30px;
+  font-family: Pathway Gothic One;
+  font-size: 25px;
+  color: #263555;
+}
+
+hr {
+  width: 400px;
+  margin: 55px 0;
+  color: #dedbdb;
+}
+
+.block-list {
+  margin: 40px 0 0;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  padding: 0 25px;
+}
+
+dd {
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: Pathway Gothic One;
+  color: #263555;
+}
+
+.princeples {
+  margin: 0 50px;
+}
