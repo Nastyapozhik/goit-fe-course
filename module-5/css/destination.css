@@ -1,0 +1,94 @@
+.destination {
+  padding: 0 60px 140px;
+  background-color: #fff;
+}
+
+.cities {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.cities:last-child {
+  margin-right: 0;
+}
+
+.gallery-img {
+  display: block;
+  width: 290px;
+  height: 270px;
+}
+
+.city-title {
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.details {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #193149;
+  color: #fff;
+  font-family: "Arial";
+}
+
+.cities:hover>.details {
+  display: block;
+}
+
+.about {
+  font-family: "Arial";
+  font-size: 10px;
+  line-height: 1.7;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Arial";
+  background-color: #fff;
+  color: #000;
+}
+
+.top {
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #263553;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.to-top {
+  position: fixed;
+  text-align: center;
+  line-height: 35px;
+  width: 30px;
+  height: 30px;
+  background: #38afe5;
+  border-radius: 50px;
+  bottom: 3%;
+  right: 15%;
+}
+
+.fixed {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fixed::before {
+  content: "^";
+}

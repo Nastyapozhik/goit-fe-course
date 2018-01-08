@@ -1,0 +1,85 @@
+.menu {
+  display: inline-block;
+  width: 100%;
+  list-style: none;
+  padding: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.menu-item,
+.circle {
+  display: inline-block;
+  position: relative;
+}
+
+.menu-item,
+.submenu-item,
+.jorney {
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-item {
+  padding: 20px;
+}
+
+.menu-title:hover {
+  color: #263555;
+}
+
+.menu-title,
+.block {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 28px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.menu-item:hover>.submenu {
+  display: block;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.block {
+  color: #263555;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+.jorney {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  color: #263555;
+  font-family: "Dorsa";
+  font-size: 60px;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  margin-top: -15px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 10px 5px;
+  border-color: transparent transparent #fff transparent;
+}
