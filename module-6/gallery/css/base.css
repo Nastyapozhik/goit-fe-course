@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  margin: auto;
+  min-height: 100hv;
+}
+
+body {
+  background-image: url(../img/000.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,6 @@
+footer {
+  width: 64rem;
+  height: 8.5rem;
+  flex-grow: 1;
+  background-color: #30455b;
+}

@@ -1,0 +1,67 @@
+.contacts {
+  flex-grow: 1;
+  width: 64rem;
+  background-color: #30455b;
+  padding: 4rem;
+  display: flex;
+}
+
+.faqs {
+  text-align: center;
+  width: 25%;
+  height: 3rem;
+}
+
+.tel,
+.mail {
+  display: block;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.tel {
+  text-transform: uppercase;
+}
+
+.footer-socials {
+  display: flex;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.designed {
+  display: flex;
+  padding: 2rem;
+  margin: auto;
+}
+
+.template {
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.footer-icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.bg-001_google_plus {
+  background: url('../img/footer/footer-icons.png') -10px -10px;
+}
+
+.bg-002_linkedin {
+  background: url('../img/footer/footer-icons.png') -94px -10px;
+}
+
+.bg-003_twitter {
+  background: url('../img/footer/footer-icons.png') -10px -94px;
+}
+
+.bg-004_facebook {
+  background: url('../img/footer/footer-icons.png') -94px -94px;
+}
