@@ -10,6 +10,7 @@
   text-align: center;
   width: 25%;
   height: 3rem;
+  list-style: none;
 }
 
 .tel,
@@ -19,11 +20,13 @@
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .tel {
   text-transform: uppercase;
 }
+
 
 .footer-socials {
   display: flex;
