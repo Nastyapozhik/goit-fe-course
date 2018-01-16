@@ -1,5 +1,4 @@
 .contacts {
-  flex-grow: 1;
   width: 64rem;
   background-color: #30455b;
   padding: 4rem;
@@ -35,7 +34,7 @@
 }
 
 .designed {
-  display: flex;
+  flex-grow: 1;
   padding: 2rem;
   margin: auto;
 }
