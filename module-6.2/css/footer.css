@@ -48,23 +48,24 @@
 
 .footer-icon {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 40px;
+  height: 40px;
   margin-right: 20px;
 }
 
-.bg-001_google_plus {
+
+
+.bg-facebook {
   background: url('../img/footer/footer-icons.png') -10px -10px;
 }
 
-.bg-002_linkedin {
-  background: url('../img/footer/footer-icons.png') -94px -10px;
+.bg-google {
+  background: url('../img/footer/footer-icons.png') -70px -10px;
+}
+.bg-linkedin {
+  background: url('../img/footer/footer-icons.png') -10px -70px;
 }
 
-.bg-003_twitter {
-  background: url('../img/footer/footer-icons.png') -10px -94px;
-}
-
-.bg-004_facebook {
-  background: url('../img/footer/footer-icons.png') -94px -94px;
+.bg-twitter {
+  background: url('../img/footer/footer-icons.png') -70px -70px;
 }

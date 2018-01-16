@@ -5,6 +5,7 @@
 }
 
 .gallery-block {
+  background-color: #2e2b2b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,6 +18,7 @@
   display: none;
   position: absolute;
   text-align: center;
+  filter: opacity(0.7);
 }
 
 .search-img {
@@ -28,12 +30,11 @@
   display: block;
 }
 
-.gallery-block:hover {
-  background: #646769;
-  -khtml-opacity: .8;
-    -moz-opacity: .8;
-         opacity: .8;
+
+.gallery-block:hover > .gallery-item {
+  filter: opacity(0.5);
 }
+
 
 .gallery-img {
   display: block;
