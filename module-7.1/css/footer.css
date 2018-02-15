@@ -1,0 +1,70 @@
+.contacts {
+  width: 64rem;
+  background-color: #30455b;
+  padding: 4rem;
+  display: flex;
+}
+
+.faqs {
+  text-align: center;
+  width: 25%;
+  height: 3rem;
+  list-style: none;
+}
+
+.tel,
+.mail {
+  display: block;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.tel {
+  text-transform: uppercase;
+}
+
+
+.footer-socials {
+  display: flex;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.designed {
+  flex-grow: 1;
+  padding: 2rem;
+  margin: auto;
+}
+
+.template {
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.footer-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+
+
+.bg-facebook {
+  background: url('../img/footer/footer-icons.png') -10px -10px;
+}
+
+.bg-google {
+  background: url('../img/footer/footer-icons.png') -70px -10px;
+}
+.bg-linkedin {
+  background: url('../img/footer/footer-icons.png') -10px -70px;
+}
+
+.bg-twitter {
+  background: url('../img/footer/footer-icons.png') -70px -70px;
+}
