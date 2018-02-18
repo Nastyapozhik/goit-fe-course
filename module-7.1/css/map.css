@@ -91,4 +91,5 @@ span {
   font-size: 1rem;
   margin-left: 1rem;
   border: 0.1rem solid #b6afb0;
+  cursor: pointer;
 }

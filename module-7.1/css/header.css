@@ -34,16 +34,16 @@
   text-decoration: none;
   color: #fff;
   font-family: "Pathway Gothic One", sans-serif;
-  font-size: 1.7rem;
 }
 
 .submenu {
   display: none;
   position: absolute;
-  left: 0.8rem;
+  left: 1.6rem;
   margin-top: 0.4rem;
   padding: 0.4rem;
   background-color: #fff;
+  border-radius: 0.2rem;
 }
 
 .menu-item:hover>.submenu {
@@ -52,8 +52,13 @@
   background-color: #fff;
 }
 
+.menu-title {
+  font-size: 1.7rem;
+}
+
 .block {
   color: #263555;
+  font-size: 1rem;
 }
 
 .circle {
@@ -77,7 +82,7 @@
   content: "";
   position: absolute;
   margin-top: -14px;
-  left: 2rem;
+  left: 1.3rem;
   display: inline-block;
   width: 0;
   height: 0;
