@@ -1,0 +1,223 @@
+.page-header {
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.25rem;
+  margin: 1rem 0 3rem;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+
+.menu-item,
+.submenu-item,
+.jorney {
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-item {
+  position: relative;
+  margin-bottom: 1.25rem;
+  flex-basis: 33.33%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.menu-title:hover {
+  color: #263555;
+}
+
+.menu-title,
+.block {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: 36%;
+  margin-top: 0.4rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.2rem;
+}
+
+.menu-item:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+.menu-item:hover>.submenu {
+  display: block;
+  margin-top: 0.6rem;
+  background-color: #fff;
+}
+
+.block {
+  color: #263555;
+  font-size: 1rem;
+}
+
+.menu-title {
+  font-size: 1.7rem;
+}
+
+.circle {
+  display: flex;
+  flex-basis: 100%;
+  order: -1;
+  margin-bottom: 2rem;
+}
+
+.jorney {
+  margin: 0 auto;
+  list-style: none;
+  line-height: 6.5rem;
+  height: 6.8rem;
+  width: 6.8rem;
+  border-radius: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #263555;
+  background-color: #fff;
+  font-size: 3.5rem;
+  font-family: "Dorsa", sans-serif;
+  font-weight: 500;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  margin-top: 3rem;
+  left: 1.5rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  top: -3.5rem;
+  border-width: 0 5px 10px 5px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.to-top {
+  position: fixed;
+  text-align: center;
+  line-height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: #38afe5;
+  border-radius: 50px;
+  bottom: 3%;
+  right: 15%;
+}
+
+.fixed {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fixed::before {
+  content: "^";
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .page-header {
+    padding: 1.3rem 15rem 1.4rem 10rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .jorney {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6.2rem;
+    font-size: 2.5rem;
+  }
+
+  .submenu {
+    position: absolute;
+    left: 30%;
+    padding: 0.7rem;
+  }
+
+  .submenu-list {
+   z-index: 1;
+   left: 2rem;
+  }
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .submenu {
+    position: absolute;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    height: 5rem;
+    width: 4rem;
+    padding: 0.5rem;
+    left: 1.8rem;
+  }
+
+  .triangle::before {
+    content: '';
+    position: absolute;
+    border: 4px solid transparent;
+    border-bottom: 5px solid #fff;
+    top: -3.5rem;
+    left: 1.8rem;
+}
+
+  .menu-item {
+    margin-bottom: 0;
+  }
+
+  .page-header {
+    font-size: 1.7rem;
+    margin-bottom: 3.5rem;
+    margin-top: 2.8rem;
+    padding: 1.7rem;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .submenu-list {
+    height: 5rem;
+    width: 4rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0.5rem;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+  }
+
+  .jorney {
+    line-height: 8rem;
+    height: 8.5rem;
+    width: 8.5rem;
+    font-size: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .circle {
+    display: flex;
+    order: 0;
+    flex-basis: auto;
+    margin-left: 2.8rem;
+  }
+}

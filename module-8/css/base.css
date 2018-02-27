@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-width: 30rem;
+  max-width: 64rem;
+  margin: auto;
+}
+
+body {
+  background-image: url(../img/000.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    margin: auto;
+    min-width: 48rem;
+    max-width: 64rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    margin: auto;
+    max-width: 64rem;
+  }
+}
+
+
+ 
