@@ -1,0 +1,12 @@
+body {
+  background-image: url(../img/logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.container-width {
+  margin: auto;
+  min-width: 30rem;
+}

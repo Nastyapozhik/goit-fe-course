@@ -1,0 +1,185 @@
+.title {
+  background-color: #fff;
+  padding: 3.7rem 2.2rem 9.5rem 2.2rem;
+}
+
+.title h2 {
+  font-size: 1.5rem;
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #173255;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.title h3 {
+  font-size: 0.8rem;
+  color: #173255;
+  margin-bottom: 1.2rem;
+}
+
+.title p {
+  font-size: 0.7rem;
+  color: #4C4F4F;
+}
+
+.img {
+  background-image: url(../img/plane1.jpg);
+  height: 6.2rem;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list {
+  counter-reset: list;
+  position: relative;
+  margin-left: 30px;
+}
+
+.list-item::before {
+  display: flex;
+  counter-increment: list;
+  content: counter(list);
+  background-color: #00B0E8;
+  padding: 6px 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: -30px;
+}
+
+.block-list {
+  line-height: 2;
+}
+
+.block-list::before {
+  content: url(../img/arrow.png);
+  margin-left: -15px;
+  position: absolute;
+}
+
+.list {
+  -webkit-padding-start: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.inner-wrapper-1 {
+  border-bottom: 1px solid #E0DCDC;
+  padding-bottom: 3rem;
+}
+
+.inner-wrapper-2 ul {
+  columns: 2;
+  padding-right: 0;
+  list-style-type: none;
+}
+
+.blockquote {
+  font-size: 0.8rem;
+  color: #173255;
+  line-height: 1.2;
+}
+
+blockquote::before {
+  content: '\00201C';
+}
+
+blockquote::after {
+  content: '\00201D';
+}
+
+.block {
+  border: 1px solid #E1DDDD;
+  border-radius: 5px;
+  height: 10rem;
+  background-color: #FDFAFA;
+  text-align: center;
+  padding: 0.3rem;
+  margin: 0 auto;
+}
+
+.block::before,
+.block::after {
+  content: '';
+  position: absolute;
+  bottom: -45px;
+  border: 20px solid transparent;
+  border-top: 25px solid #E1DDDD;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.block::after {
+  border-top: 25px solid #FDFAFA;
+  bottom: -43px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  bottom: -8.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+span {
+  font-size: 16px;
+  color: #374865;
+}
+
+.autor p {
+  margin-top: 23px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .img {
+    background-image: url(../img/plane2.jpg);
+    height: 17.5rem;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+  }
+  .title h2 {
+    font-size: 1.7rem;
+  }
+  .title h3 {
+    font-size: 1rem;
+  }
+  .title p {
+    font-size: 0.8rem;
+  }
+  .list {
+    display: flex;
+  }
+  .block {
+    height: 22rem;
+  }
+  .name {
+    bottom: -12rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img {
+    background-image: url(../img/plane2.jpg);
+    height: 17.5rem;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+  }
+  .title h2 {
+    font-size: 2rem;
+  }
+  .block {
+    height: 13rem;
+  }
+}
