@@ -1,0 +1,19 @@
+.container {
+  box-sizing: border-box;
+  padding-top: 3.5rem;
+  min-width: 30rem;
+  max-width: 64rem;
+  margin: auto;
+}
+
+body {
+  background-image: url(../img/000.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+
+
+ 

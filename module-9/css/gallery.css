@@ -1,0 +1,186 @@
+.gallery {
+  padding: 4rem 3rem 8rem 3rem;
+  background-color: #fff;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One";
+  font-size: 1.75rem;
+}
+
+.gallery-img1 {
+  height: 13.5rem;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-img2 {
+  height: 13.5rem;
+  background-image: url(../img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-img3 {
+  height: 13.5rem;
+  background-image: url(../img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-img4 {
+  height: 13.5rem;
+  background-image: url(../img/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-img5 {
+  height: 13.5rem;
+  background-image: url(../img/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-img6 {
+  height: 13.5rem;
+  background-image: url(../img/6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-block::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  transform: translate(-50%, -50%);
+  background: url(../img/search1.png) center no-repeat;
+  background-size: 2rem 2rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 2;
+}
+
+.gallery-block:hover {
+  filter: brightness(0.8);
+}
+
+.gallery-block:hover::after {
+  opacity: 1;
+  filter: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .gallery-img1 {
+      height: 11rem;
+      background-image: url(../img/1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img2 {
+      height: 11rem;
+      background-image: url(../img/2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img3 {
+      height: 11rem;
+      background-image: url(../img/3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img4 {
+      height: 11rem;
+      background-image: url(../img/4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img5 {
+      height: 11rem;
+      background-image: url(../img/5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img6 {
+      height: 11rem;
+      background-image: url(../img/6.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img7 {
+      height: 11rem;
+      background-image: url(../img/7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img8 {
+      height: 11rem;
+      background-image: url(../img/8.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .gallery-img1 {
+      height: 9.5rem;
+      background-image: url(../img/1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img2 {
+      height: 9.5rem;
+      background-image: url(../img/2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img3 {
+      height: 9.5rem;
+      background-image: url(../img/3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img4 {
+      height: 9.5rem;
+      background-image: url(../img/4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img5 {
+      height: 9.5rem;
+      background-image: url(../img/5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img6 {
+      height: 9.5rem;
+      background-image: url(../img/6.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img7 {
+      height: 9.5rem;
+      background-image: url(../img/7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img8 {
+      height: 9.5rem;
+      background-image: url(../img/8.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .gallery-img9 {
+      height: 9.5rem;
+      background-image: url(../img/9.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+}
+
+

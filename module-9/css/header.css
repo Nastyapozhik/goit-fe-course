@@ -1,0 +1,181 @@
+.page-header {
+  margin-bottom: 3.7rem;
+  margin-top: 1.5rem;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #fff;
+}
+
+.circle {
+  margin-bottom: 1.5rem;
+  order: -1;
+}
+
+.circle h1 {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #fff;
+  color: #263555;
+  font-size: 2rem;
+  font-family: "Dorsa", sans-serif;
+  text-transform: uppercase;
+  line-height: 4.8rem;
+  margin: 0 auto;
+}
+
+.submenu-list a {
+  color: #263555;
+}
+
+.submenu-list {
+  padding-left: 0;
+}
+
+
+.submenu-item {
+  list-style: none;
+}
+
+.submenu-item a {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  padding-top: 0.5rem;
+  left: 50%;
+  margin-left: -1.4rem;
+}
+
+.submenu-list {
+  width: 2.875rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.menu-item:hover a {
+  color: #263555;
+}
+
+.menu>li:hover .submenu {
+  display: block;
+  z-index: 1;
+}
+.submenu>ul {
+  position: relative;
+  background-color: #fff;
+}
+
+.submenu>ul::before {
+  content: '';
+  position: absolute;
+  display: block;
+  border: 3px solid transparent;
+  border-bottom: 4px solid #fff;
+  top: -0.4rem;
+  left: 1.3rem;
+}
+
+
+
+.to-top {
+  position: fixed;
+  text-align: center;
+  line-height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: #38afe5;
+  border-radius: 50px;
+  bottom: 3%;
+  right: 15%;
+}
+
+.fixed {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fixed::before {
+  content: "^";
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .menu-item a {
+    font-size: 1.7rem;
+  }
+  .submenu-list {
+    width: 3.7rem;
+  }
+  .submenu-item a {
+    font-size: 1rem;
+  }
+  .submenu>ul::before {
+    left: 1.7rem;
+  }
+  .submenu {
+    left: 50%;
+    margin-left: -1.8rem;
+  }
+
+  .circle h1 {
+    height: 6.25rem;
+    width: 6.25rem;
+    font-size: 3rem;
+    line-height: 6.25rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .menu-item a {
+    font-size: 1.5rem;
+  }
+  .submenu-list {
+    width: 4.2rem;
+  }
+  .submenu-item a {
+    font-size: 1.2rem;
+  }
+  .submenu {
+    left: 50%;
+    margin-left: -2rem;
+  }
+  .submenu>ul::before {
+    left: 1.9rem;
+  }
+  .circle h1 {
+    width: 8.625rem;
+    height: 8.625rem;
+    font-size: 3.75rem;
+    line-height: 8.625rem;
+  }
+
+  .circle {
+    order: 0;
+  }
+}

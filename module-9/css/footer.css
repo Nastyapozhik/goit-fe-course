@@ -1,0 +1,126 @@
+.info {
+  background-color: #1E435B;
+  padding: 1rem 1.5rem;
+  margin: 0;
+}
+
+.menu-footer-items {
+  list-style: none;
+  font-size: 0.8rem;
+  -webkit-padding-start: 0;
+  line-height: 2;
+  text-align: center;
+}
+
+.menu-footer-items a {
+  text-decoration: none;
+}
+
+.footer-menu-contacts a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-contacts {
+  list-style: none;
+  -webkit-padding-start: 0;
+  display: flex;
+  line-height: 1.1;
+}
+
+.footer-menu-contacts {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-items a,
+h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.phone,
+.mail {
+  font-size: 0.6rem;
+  text-transform: none;
+}
+
+.phone::before {
+  content: url(../img/phone1.png);
+  margin-right: 0.5rem;
+  margin-left: 0.8rem;
+}
+
+.mail::before {
+  content: url(../img/mail.png);
+  margin-right: 0.5rem;
+  margin-left: 1.8rem;
+}
+
+.footer-socials {
+  padding-top: 1.5rem;
+  margin-bottom: 3.7rem;
+}
+
+.footer-icon {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.7rem;
+}
+
+.designed {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+
+.bg-facebook {
+  background: url('../img/footer/footer-icons.png') -10px -10px;
+}
+
+.bg-google {
+  background: url('../img/footer/footer-icons.png') -70px -10px;
+}
+.bg-linkedin {
+  background: url('../img/footer/footer-icons.png') -10px -70px;
+}
+
+.bg-twitter {
+  background: url('../img/footer/footer-icons.png') -70px -70px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-menu-contacts {
+      flex-direction: column;
+  }
+  .footer-contacts {
+      flex-direction: column;
+  }
+  .phone::before {
+      content: "";
+  }
+  .mail::before {
+      content: "";
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer-menu-contacts {
+      flex-direction: column;
+  }
+  .footer-contacts {
+      flex-direction: column;
+  }
+  .phone::before {
+      content: "";
+  }
+  .mail::before {
+      content: "";
+  }
+}
+
+
